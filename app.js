@@ -47,7 +47,7 @@ class App {
         new oee_stream_1.default();
     }
 }
-const port = process.env.SERVER_PORT || 5000;
+const port = process.env.SERVER_PORT || 5100;
 const app = new App().app;
 app.listen(port, () => console.log(`Server running on port ${port}`));
 exports.default = app;
